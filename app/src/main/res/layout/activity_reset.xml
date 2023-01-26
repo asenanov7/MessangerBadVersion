@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResetActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:gravity="center"
+        android:text="@string/_emailForReset"
+        android:textColor="@color/ClassicColor"
+        android:textSize="32sp" />
+
+    <EditText
+        android:id="@+id/resetEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:autofillHints="emailAddress"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="@color/ClassicColor"
+        android:layout_marginStart="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_resetPassword" />
+
+    <ProgressBar
+        android:id="@+id/progressBarReset"
+        style="?android:attr/progressBarStyle"
+        android:visibility="invisible"
+        android:layout_marginTop="220dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

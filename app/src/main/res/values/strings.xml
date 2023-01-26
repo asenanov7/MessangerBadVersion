@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SoloMessenger</string>
+    <string name="_email">Email</string>
+    <string name="_password">Пароль</string>
+    <string name="_sign">ВХОД</string>
+    <string name="_messenger">Messenger</string>
+    <string name="_reset">Забыли пароль?</string>
+    <string name="_registration">Регистрация</string>
+    <string name="_name">Имя</string>
+    <string name="_surname">Фамилия</string>
+    <string name="_age">Возраст</string>
+    <string name="_emailForReset">Почта для сброса</string>
+    <string name="_resetPassword">Сброс</string>
+    <string name="_exit">Выйти</string>
+    <string name="_writemessage">Введите сообщение</string>
+    <string name="_send">send</string>
+</resources>
